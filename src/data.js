@@ -1,7 +1,7 @@
 export const myProfile = {
     uri: "https://raw.githubusercontent.com/bi-sz/friendsList/master/image/BI2.jpg",
     name: "비",
-    introduction: "",
+    introduction: "RN 재밌다.. ㅎㅏㅎㅏㅎㅏ..",
   };
   
   export const friendProfiles = [
