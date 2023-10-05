@@ -6,34 +6,39 @@ export const myProfile = {
   
   export const friendProfiles = [
     {
+      uri: "https://raw.githubusercontent.com/bi-sz/friendsList/master/image/JiWon.jpg",
+      name: "100지1",
+      introduction: "포도송이.......",
+    },
+    {
+      uri: "https://raw.githubusercontent.com/bi-sz/friendsList/master/image/sonhChu.png",
+      name: "SongChu~♥",
+      introduction: "19살 여고생",
+    },
+    {
       uri: "https://raw.githubusercontent.com/bi-sz/friendsList/master/image/Neow.jpg",
       name: "녜냥",
-      introduction: "",
+      introduction: "로또당첨기원 1일차",
     },
     {
-      uri: "https://cdn.pixabay.com/photo/2018/04/05/14/09/sunflowers-3292932__480.jpg",
+      uri: "https://raw.githubusercontent.com/bi-sz/friendsList/master/image/DB.png",
       name: "동빈",
-      introduction: "",
+      introduction: "고양이 손님",
     },
     {
-      uri: "https://cdn.https://raw.githubusercontent.com/bi-sz/friendsList/master/image/Miseong.png",
+      uri: "https://raw.githubusercontent.com/bi-sz/friendsList/master/image/Miseong.png",
       name: "미성",
       introduction: "",
     },
     {
-      uri: "https://cdn.https.com/https://raw.githubusercontent.com/bi-sz/friendsList/master/image/Jaehyung.png",
+      uri: "https://raw.githubusercontent.com/bi-sz/friendsList/master/image/Jaehyung.png",
       name: "박재형",
-      introduction: "",
+      introduction: "아 나 왜 이건데",
     },
     {
-      uri: "https://cdn.pixabay.https://raw.githubusercontent.com/bi-sz/friendsList/master/image/seungsoo.jpg",
+      uri: "https://raw.githubusercontent.com/bi-sz/friendsList/master/image/seungsoo.jpg",
       name: "박승수",
-      introduction: "",
-    },
-    {
-      uri: "https://cdn.https://raw.githubusercontent.com/bi-sz/friendsList/master/image/sonhChu.png",
-      name: "송츄",
-      introduction: "",
+      introduction: "성 떼줘 매정해보이잖아 ㅠ 나 파워F 라고 ㅠ ",
     },
     {
       uri: "https://raw.githubusercontent.com/bi-sz/friendsList/master/image/wonhee.jpg",
@@ -41,9 +46,9 @@ export const myProfile = {
       introduction: "삶은.... 계란.",
     },
     {
-      uri: "https://cdn.pixabay.com/photo/2017/08/10/02/05/tiles-shapes-2617112_1280.jpg",
+      uri: "https://raw.githubusercontent.com/bi-sz/friendsList/master/image/JaeMin.jpg",
       name: "재민",
-      introduction: "",
+      introduction: "🎇 ア イ ド ル 🎇",
     },
     {
       uri: "https://raw.githubusercontent.com/bi-sz/friendsList/master/image/Jeongmin.jpeg",
@@ -51,7 +56,7 @@ export const myProfile = {
       introduction: "",
     },
     {
-      uri: "https://raw.githubusercontent.com/bi-sz/friendsList/master/image/Jeongmin.jpeg",
+      uri: "https://raw.githubusercontent.com/bi-sz/friendsList/master/image/JiYoon.png",
       name: "지윤",
       introduction: "",
     },
@@ -68,6 +73,6 @@ export const myProfile = {
     {
       uri: "https://raw.githubusercontent.com/bi-sz/friendsList/master/image/Hojin.jpg",
       name: "호진",
-      introduction: "",
+      introduction: "잘 생기면 다야 ㅋ",
     },
   ];

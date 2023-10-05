@@ -1,16 +1,62 @@
-import { ScrollView } from "react-native";
+import { ScrollView, View } from "react-native";
 import Profile from "./Profile";
+import Margin from "./Margin";
 
 export default (props) => {
-    return (
-        <ScrollView>
-            {props.data.map((item) => (
-                <Profile
-                    uri={item.uri}
-                    name={item.name}
-                    introduction={item.introduction}
-                />
-            ))} 
+    /**
+    * Case 1. 삼항연산자 
+    */
+    // return props.isOpend ? (
+    //     <ScrollView showsVerticalScrollIndicator={false} contentContainerStyle={{ padding: bottomSpace }}>
+    //         {props.data.map((item, index) => (
+    //             <View key={index}>
+    //                 <Profile
+    //                     uri={item.uri}
+    //                     name={item.name}
+    //                     introduction={item.introduction}
+    //                 />
+    //                 <Margin height={13} />
+    //             </View>
+    //         ))} 
+    //     </ScrollView>
+    // ) : null;
+
+    /**
+     * Case 2. if문으로 예외처리
+     */
+    // if (!props.isOpened) return null;
+    // return (
+    //     <ScrollView showsVerticalScrollIndicator={false} contentContainerStyle={{ padding: bottomSpace }}>
+    //         {props.data.map((item, index) => (
+    //             <View key={index}>
+    //                 <Profile
+    //                     uri={item.uri}
+    //                     name={item.name}
+    //                     introduction={item.introduction}
+    //                 />
+    //                 <Margin height={13} />
+    //             </View>
+    //         )
+    //         )} 
+    //     </ScrollView>
+    // );
+
+    /**
+     * Case 3. && 이용 
+     */
+    return props.isOpend &&  (
+        <ScrollView showsVerticalScrollIndicator={false} >
+            {props.data.map((item, index) => (
+                <View key={index}>
+                    <Profile
+                        uri={item.uri}
+                        name={item.name}
+                        introduction={item.introduction}
+                    />
+                    <Margin height={13} />
+                </View>
+            )
+            )} 
         </ScrollView>
-    )
+    );
 };
