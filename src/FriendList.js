@@ -22,29 +22,29 @@ export default (props) => {
     // ) : null;
 
     /**
-     * Case 2. if문으로 예외처리
+     * Case 2. if문으로 먼저 예외처리
      */
     // if (!props.isOpened) return null;
     // return (
-    //     <ScrollView showsVerticalScrollIndicator={false} contentContainerStyle={{ padding: bottomSpace }}>
-    //         {props.data.map((item, index) => (
-    //             <View key={index}>
-    //                 <Profile
-    //                     uri={item.uri}
-    //                     name={item.name}
-    //                     introduction={item.introduction}
-    //                 />
-    //                 <Margin height={13} />
-    //             </View>
-    //         )
-    //         )} 
-    //     </ScrollView>
-    // );
+    //   <ScrollView showsVerticalScrollIndicator={false} contentContainerStyle={{ paddingBottom: bottomSpace }}>
+    //     {props.data.map((item, index) => (
+    //       <View key={index}>
+    //         <Profile
+    //           uri={item.uri}
+    //           name={item.name} 
+    //           introduction={item.introduction}
+    //         />
+    //         <Margin height={13} />
+    //       </View>
+    //     )
+    //     )}
+    //   </ScrollView>
+    // )
 
     /**
      * Case 3. && 이용 
      */
-    return props.isOpend &&  (
+    return props.isOpend && (
         <ScrollView showsVerticalScrollIndicator={false} >
             {props.data.map((item, index) => (
                 <View key={index}>
@@ -56,7 +56,7 @@ export default (props) => {
                     <Margin height={13} />
                 </View>
             )
-            )} 
+            )}
         </ScrollView>
     );
 };

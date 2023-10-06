@@ -43,7 +43,7 @@ export const myProfile = {
     {
       uri: "https://raw.githubusercontent.com/bi-sz/friendsList/master/image/wonhee.jpg",
       name: "워니",
-      introduction: "삶은.... 계란.",
+      introduction: "삶은.... 계란",
     },
     {
       uri: "https://raw.githubusercontent.com/bi-sz/friendsList/master/image/JaeMin.jpg",
